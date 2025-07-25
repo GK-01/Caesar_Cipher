@@ -21,9 +21,11 @@ def caesar_decoding(encoded_message, shift):
         else:
             decoded_message+=char
     return decoded_message
+    
 while True:
     print("Caesar Cipher Menu:\n1. Encode a message:\n2. Decode a message:\n3. Exit")
     choice=int(input("Enter your choice (1, 2 or 3): "))
+    
     if choice==1:
         message=input("Enter a message to encode: ")
         try:
